@@ -24,7 +24,7 @@ function calc() {
     }
     oneBoolean = prompt('Напишите left или right');
     if(oneBoolean !== 'left' && oneBoolean !== 'right' ) {
-        return  console.log('Жаль что вы не захотели ввести true или false');
+        return  console.log('Жаль что вы не захотели ввести left или right');
     }
     if(oneNumber < oneString.length) {
         for(let i=0; i < oneNumber; i++) {
