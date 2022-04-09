@@ -1,15 +1,8 @@
 'use strict';
 
-let oneString = '';
-let oneNumber = '';
-let oneSymbol = '';
-let oneBoolean = '';
-let sumString = '';
-let sumSymbol = '';
-let secNumber = '';
+let sumString, sumSymbol, secNumber;
 calc();
-
-function calc() {
+function calc(oneString, oneNumber, oneSymbol, oneBoolean) {
     oneString = prompt('Напишите строку');
     if(oneString === null || oneString === '') {
         return  console.log('Жаль что вы не захотели ввести строку');
